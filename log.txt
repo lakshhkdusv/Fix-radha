@@ -1,0 +1,172 @@
+[06-Jun-25 20:49:28 - INFO] - NetflixMusic.core.mongo - Connecting to your Mongo Database...
+[06-Jun-25 20:49:28 - INFO] - NetflixMusic.core.mongo - Connected to your Mongo Database.
+[06-Jun-25 20:49:28 - INFO] - NetflixMusic.core.dir - Directories Updated.
+[06-Jun-25 20:50:19 - WARNING] - git.remote - Error lines received while fetching: fatal: User cancelled dialog.
+[06-Jun-25 20:51:41 - INFO] - NetflixMusic.core.git - Fetching updates from upstream repository...
+[06-Jun-25 20:51:41 - INFO] - NetflixMusic.misc - Local Database Initialized.
+[06-Jun-25 20:51:41 - INFO] - NetflixMusic.core.bot - Starting Bot...
+[06-Jun-25 20:51:52 - INFO] - NetflixMusic.misc - Sudoers Loaded.
+[06-Jun-25 20:52:00 - INFO] - NetflixMusic.core.bot - Music Bot Started as NairaMusic_Bot 
+[06-Jun-25 21:01:44 - INFO] - NetflixMusic.core.mongo - Connecting to your Mongo Database...
+[06-Jun-25 21:01:44 - INFO] - NetflixMusic.core.mongo - Connected to your Mongo Database.
+[06-Jun-25 21:01:44 - INFO] - NetflixMusic.core.dir - Directories Updated.
+[06-Jun-25 21:01:44 - INFO] - NetflixMusic.core.git - Git Client Found [VPS DEPLOYER]
+[06-Jun-25 21:01:44 - INFO] - NetflixMusic.misc - Local Database Initialized.
+[06-Jun-25 21:01:44 - INFO] - NetflixMusic.core.bot - Starting Bot...
+[06-Jun-25 21:01:53 - INFO] - NetflixMusic.misc - Sudoers Loaded.
+[06-Jun-25 21:02:01 - INFO] - NetflixMusic.core.bot - Music Bot Started as NairaMusic_Bot 
+[06-Jun-25 21:03:44 - INFO] - NetflixMusic.core.mongo - Connecting to your Mongo Database...
+[06-Jun-25 21:03:44 - INFO] - NetflixMusic.core.mongo - Connected to your Mongo Database.
+[06-Jun-25 21:03:44 - INFO] - NetflixMusic.core.dir - Directories Updated.
+[06-Jun-25 21:03:44 - INFO] - NetflixMusic.core.git - Git Client Found [VPS DEPLOYER]
+[06-Jun-25 21:03:44 - INFO] - NetflixMusic.misc - Local Database Initialized.
+[06-Jun-25 21:03:44 - INFO] - NetflixMusic.core.bot - Starting Bot...
+[06-Jun-25 21:03:49 - INFO] - NetflixMusic.misc - Sudoers Loaded.
+[06-Jun-25 21:03:59 - INFO] - NetflixMusic.core.bot - Music Bot Started as NairaMusic_Bot 
+[06-Jun-25 21:12:10 - INFO] - NetflixMusic.core.mongo - Connecting to your Mongo Database...
+[06-Jun-25 21:12:10 - INFO] - NetflixMusic.core.mongo - Connected to your Mongo Database.
+[06-Jun-25 21:12:10 - INFO] - NetflixMusic.core.dir - Directories Updated.
+[06-Jun-25 21:12:10 - INFO] - NetflixMusic.core.git - Git Client Found [VPS DEPLOYER]
+[06-Jun-25 21:12:10 - INFO] - NetflixMusic.misc - Local Database Initialized.
+[06-Jun-25 21:12:10 - INFO] - NetflixMusic.core.bot - Starting Bot...
+[06-Jun-25 21:12:18 - INFO] - NetflixMusic.misc - Sudoers Loaded.
+[06-Jun-25 21:12:26 - INFO] - NetflixMusic.core.bot - Music Bot Started as NairaMusic_Bot 
+[06-Jun-25 21:12:26 - INFO] - NetflixMusic.plugins - Successfully Imported Modules...
+[06-Jun-25 21:12:26 - INFO] - NetflixMusic.core.userbot - Starting Assistants...
+[06-Jun-25 21:12:29 - INFO] - NetflixMusic.core.call - Starting PyTgCalls Client...
+
+[06-Jun-25 21:12:35 - INFO] - NetflixMusic - Aviax Music Started Successfully.
+
+Don't forget to visit @AviaxOfficial
+[06-Jun-25 21:18:52 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-1025' coro=<Session.recv_worker() done, defined at C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py:304> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 308, in recv_worker
+    packet = await self.connection.recv()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\connection\connection.py", line 81, in recv
+    return await self.protocol.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\connection\transport\tcp\tcp_abridged.py", line 46, in recv
+    length = await super().recv(1)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\connection\transport\tcp\tcp.py", line 155, in recv
+    self.reader.read(length - len(data)),
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'read'
+[06-Jun-25 21:24:37 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-1381' coro=<Session.restart() done, defined at C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py:185> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 186, in restart
+    await self.stop()
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 175, in stop
+    await self.recv_task
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 308, in recv_worker
+    packet = await self.connection.recv()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\connection\connection.py", line 81, in recv
+    return await self.protocol.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\connection\transport\tcp\tcp_abridged.py", line 46, in recv
+    length = await super().recv(1)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\connection\transport\tcp\tcp.py", line 154, in recv
+    chunk = await asyncio.wait_for(
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 711, in read
+    await self._wait_for_data('read')
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 529, in _wait_for_data
+    raise RuntimeError(
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[06-Jun-25 21:24:38 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-1378' coro=<Session.restart() done, defined at C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py:185> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 186, in restart
+    await self.stop()
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 175, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[06-Jun-25 21:24:38 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-1380' coro=<Session.restart() done, defined at C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py:185> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 186, in restart
+    await self.stop()
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 175, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[06-Jun-25 21:24:38 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-1386' coro=<Session.restart() done, defined at C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py:185> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 186, in restart
+    await self.stop()
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 175, in stop
+    await self.recv_task
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 308, in recv_worker
+    packet = await self.connection.recv()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\connection\connection.py", line 81, in recv
+    return await self.protocol.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\connection\transport\tcp\tcp_abridged.py", line 46, in recv
+    length = await super().recv(1)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\connection\transport\tcp\tcp.py", line 154, in recv
+    chunk = await asyncio.wait_for(
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 711, in read
+    await self._wait_for_data('read')
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 529, in _wait_for_data
+    raise RuntimeError(
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[06-Jun-25 21:24:38 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-1379' coro=<Session.restart() done, defined at C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py:185> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 186, in restart
+    await self.stop()
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 175, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[06-Jun-25 21:24:38 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-1385' coro=<Session.restart() done, defined at C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py:185> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 186, in restart
+    await self.stop()
+  File "C:\Users\adepr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 175, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[06-Jun-25 21:28:03 - INFO] - NetflixMusic.core.mongo - Connecting to your Mongo Database...
+[06-Jun-25 21:28:03 - INFO] - NetflixMusic.core.mongo - Connected to your Mongo Database.
+[06-Jun-25 21:28:03 - INFO] - NetflixMusic.core.dir - Directories Updated.
+[06-Jun-25 21:28:03 - INFO] - NetflixMusic.core.git - Git Client Found [VPS DEPLOYER]
+[06-Jun-25 21:28:03 - INFO] - NetflixMusic.misc - Local Database Initialized.
+[06-Jun-25 21:28:03 - INFO] - NetflixMusic.core.bot - Starting Bot...
+[06-Jun-25 21:28:08 - INFO] - NetflixMusic.misc - Sudoers Loaded.
+[06-Jun-25 21:28:16 - INFO] - NetflixMusic.core.bot - Music Bot Started as NairaMusic_Bot 
+[06-Jun-25 21:28:16 - INFO] - NetflixMusic.plugins - Successfully Imported Modules...
+[06-Jun-25 21:28:16 - INFO] - NetflixMusic.core.userbot - Starting Assistants...
+[06-Jun-25 21:28:18 - INFO] - NetflixMusic.core.call - Starting PyTgCalls Client...
+
+[06-Jun-25 21:28:21 - INFO] - NetflixMusic - Aviax Music Started Successfully.
+
+Don't forget to visit @AviaxOfficial
+[06-Jun-25 21:48:44 - INFO] - NetflixMusic.core.mongo - Connecting to your Mongo Database...
+[06-Jun-25 21:48:44 - INFO] - NetflixMusic.core.mongo - Connected to your Mongo Database.
+[06-Jun-25 21:48:44 - INFO] - NetflixMusic.core.dir - Directories Updated.
+[06-Jun-25 21:48:44 - INFO] - NetflixMusic.core.git - Git Client Found [VPS DEPLOYER]
+[06-Jun-25 21:48:44 - INFO] - NetflixMusic.misc - Local Database Initialized.
+[06-Jun-25 21:48:44 - INFO] - NetflixMusic.core.bot - Starting Bot...
+[06-Jun-25 21:48:52 - INFO] - NetflixMusic.misc - Sudoers Loaded.
+[06-Jun-25 21:48:59 - INFO] - NetflixMusic.core.bot - Music Bot Started as NairaMusic_Bot 
+[06-Jun-25 21:48:59 - INFO] - NetflixMusic.plugins - Successfully Imported Modules...
+[06-Jun-25 21:48:59 - INFO] - NetflixMusic.core.userbot - Starting Assistants...
+[06-Jun-25 21:49:01 - INFO] - NetflixMusic.core.call - Starting PyTgCalls Client...
+
+[06-Jun-25 21:49:07 - INFO] - NetflixMusic - Aviax Music Started Successfully.
+
+Don't forget to visit @AviaxOfficial
