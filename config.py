@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/lakshhkdusv/Fix-saregama",
+    "https://github.com/lakshhkdusv/Fix-radha",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -84,13 +84,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/dd0dab9d3ac0d5d128133-dbf4ca992799d922d3.jpg"
+    "START_IMG_URL", "https://envs.sh/oGm.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/39c3051df43cd7bdb58bd-1c18f931f2cc61228f.jpg"
+    "PING_IMG_URL", "https://envs.sh/oGM.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/721e69ca3436056553b87-d3d68c9aa0bb6971fd.jpg"
-STATS_IMG_URL = "https://graph.org/file/6d2dc1fec257fd9181307-f8cde8f652f06a0967.jpg"
+PLAYLIST_IMG_URL = "https://graph.org//file/3dfcffd0c218ead96b102.png"
+STATS_IMG_URL = "https://envs.sh/oGX.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
@@ -119,4 +119,4 @@ if SUPPORT_GROUP:
     if not re.match("(?:http|https)://", SUPPORT_GROUP):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
-        )
+)
