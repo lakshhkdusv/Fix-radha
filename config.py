@@ -16,10 +16,13 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002398991295"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002420612426))
+
+# Vars For API End Pont.
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://yt.okflix.top/api') ## E.G https://yt.okflix.top/api/jADTdg-o8i0 Returns 
 
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", None))
@@ -30,26 +33,23 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", None) # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
-
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Radhaapi/AngelMusic",
+    "https://github.com/lakshhkdusv/Fix-saregama",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/UR_DREAM_WORLD")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AngelMusicSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NAINCY_UPDATES")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/RADHA_MUSIC_SUPPORT")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 # make your bots privacy from telegra.ph and put your url here 
-PRIVACY_LINK = getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-NetflixMusic-08-14")
+PRIVACY_LINK = getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-AviaxMusic-08-14")
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -84,21 +84,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/dcs.jpg"
+    "START_IMG_URL", "https://graph.org/file/dd0dab9d3ac0d5d128133-dbf4ca992799d922d3.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/dc9.jpg"
+    "PING_IMG_URL", "https://graph.org/file/39c3051df43cd7bdb58bd-1c18f931f2cc61228f.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/dc9.jpg"
-STATS_IMG_URL = "https://envs.sh/dc9.jpg"
-TELEGRAM_AUDIO_URL = "https://envs.sh/dcf.jpg"
-TELEGRAM_VIDEO_URL = "https://envs.sh/dcf.jpg"
-STREAM_IMG_URL = "https://envs.sh/dcf.jpg"
-SOUNCLOUD_IMG_URL = "https://envs.sh/dcf.jpg"
-YOUTUBE_IMG_URL = "https://envs.sh/dcf.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/dcf.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/dcf.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/dcf.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/721e69ca3436056553b87-d3d68c9aa0bb6971fd.jpg"
+STATS_IMG_URL = "https://graph.org/file/6d2dc1fec257fd9181307-f8cde8f652f06a0967.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
+TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
+STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
 
 
 def time_to_seconds(time):
